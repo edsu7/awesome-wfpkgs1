@@ -1,0 +1,37 @@
+{
+    "name": "demo-fastqc",
+    "version": "0.1.0",
+    "description": "run quality checks on FASTQ files",
+    "main": "main.nf",
+    "deprecated": false,
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/github-account/awesome-wfpkgs1.git"
+    },
+    "container": {
+        "registries": [
+            {
+                "registry": "ghcr.io",
+                "type": "docker",
+                "org": "github-account",
+                "default": true
+            }
+        ]
+    },
+    "dependencies": [],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "edsu7",
+            "email": "edmund.su@gmail.com"
+        }
+    ],
+    "license": "GNU General Public License v3",
+    "bugReport": "https://github.com/github-account/awesome-wfpkgs1/issues",
+    "homepage": "https://github.com/github-account/awesome-wfpkgs1#readme"
+}
